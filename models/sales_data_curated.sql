@@ -69,7 +69,7 @@ SELECT
     ,a.ship_state
     ,a.ship_country_region
     ,a.payment_type
-    a.product_name
+    ,a.product_name
     ,a.category
     -- ,a.unit_price
     ,COALESCE(a.unit_price,b.unit_price_max) AS unit_price
